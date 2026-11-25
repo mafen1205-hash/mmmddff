@@ -4,3 +4,6 @@ def calculate_discount(price, discount_percent):
     # BUG: division instead of multiplication
     discount_amount = price * (discount_percent / 100)  # BUG: делим на 1000 вместо 100
     return round(price - discount_amount, 2)
+
+# BAD EXPERIMENTAL CHANGE
+# BAD EXPERIMENTAL CHANGE
